@@ -277,10 +277,10 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@chenyueban/lint@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/@chenyueban/lint/-/lint-0.1.1.tgz#e4cf4180dae54f7b24f7243774b8943332ee12d2"
-  integrity sha512-7WfNnlyoT5atbnl5UT4Ye+VsPFPD7RbTRNUtQ8O15MoUtZVaGU5vrLIzBqkhDQXy78iVw7yscUEODyFrdqKtTQ==
+"@chenyueban/lint@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/@chenyueban/lint/-/lint-0.1.2.tgz#83f5b3e52f757415890adb68a3060587cd42270a"
+  integrity sha512-IrYSPPfpMNQy0j3CMKcbN9CweWalTUoyw/fFogP9Y+Qnj2SnHd59LvY4egTMlD6XPs78Fgku07QltR/TUk+euA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.14.1"
     "@typescript-eslint/parser" "^4.14.1"
