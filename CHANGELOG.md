@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/chenyueban/tsconfig/compare/v0.1.2...v0.1.3) (2021-01-26)
+
+### Features
+
+- 加入 react 相关配置 ([a6d6cce](https://github.com/chenyueban/tsconfig/commit/a6d6ccef9e1c2c9beba5d236ff0ed27f6f8e377b))
+
+### Bug Fixes
+
+- 修复 ci 配置错误 ([a8ae369](https://github.com/chenyueban/tsconfig/commit/a8ae3697ce3e32772c03108cbb5b66da4d9eec92))
+- 修复缺少依赖的错误 ([f0aafa4](https://github.com/chenyueban/tsconfig/commit/f0aafa460b680e2e13c0e23fcbe574ccb59a5646))
+- 删除无用 ci 环境 ([186708f](https://github.com/chenyueban/tsconfig/commit/186708fccfc57ac12d713f271ee9b6b1b7cdddfb))
+
 ### [0.1.2](https://github.com/chenyueban/tsconfig/compare/v0.1.1...v0.1.2) (2021-01-26)
 
 ### [0.1.1](https://github.com/chenyueban/tsconfig/compare/v0.1.0...v0.1.1) (2021-01-26)
