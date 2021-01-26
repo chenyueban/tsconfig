@@ -33,7 +33,7 @@
     "pkg-up": "^3.1.0"
   },
   "devDependencies": {
-    "@chenyueban/lint": "^0.1.2",
+    "@chenyueban/lint": "^0.1.4",
     "@types/jest": "^26.0.20",
     "@types/json5": "0.0.30",
     "cz-conventional-changelog": "3.3.0",
