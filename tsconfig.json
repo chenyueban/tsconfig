@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "ES2019",
     "module": "CommonJS",
 
     "traceResolution": false,
@@ -16,7 +16,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
 
-    "lib": ["esnext"],
+    "lib": ["ES2019"],
 
     "strict": true,
     "noEmitOnError": true,
