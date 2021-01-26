@@ -50,6 +50,9 @@
     "tstest": "^0.4.10"
   },
   "files": ["tsconfig.json", "bin/install.js"],
+  "publishConfig": {
+    "access": "public"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
