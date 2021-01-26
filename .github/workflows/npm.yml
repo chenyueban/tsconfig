@@ -42,7 +42,6 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - run: npm install
-      - run: ./scripts/package-publish-config-tag.sh
 
       - name: Check Branch
         id: check-branch
