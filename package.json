@@ -1,0 +1,74 @@
+{
+  "name": "@chenyueban/tsconfig",
+  "version": "0.0.0",
+  "description": "tsconfig.json inheritance via Node.js packages",
+  "tsconfig": "tsconfig.json",
+  "scripts": {
+    "dist": "echo dist",
+    "lint": "echo lint",
+    "pack": "npm pack",
+    "postinstall": "node bin/install.js",
+    "test": "npm run lint && npm run test:unit",
+    "test:pack": "bash -x scripts/npm-pack-testing.sh",
+    "test:unit": "blue-tape -r ts-node/register \"src/**/*.spec.ts\" \"src/*.spec.ts\" \"tests/*.spec.ts\" \"tests/**/*.spec.ts\"",
+    "update:deps": "yarn upgrade-interactive --latest",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenyueban/tsconfig.git"
+  },
+  "keywords": ["tsconfig", "base", "inheritance", "share"],
+  "author": {
+    "name": "chenyueban",
+    "email": "jasonchan0527@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenyueban/tsconfig/issues"
+  },
+  "homepage": "https://github.com/chenyueban/tsconfig#readme",
+  "dependencies": {
+    "@types/node": "^14.14.14",
+    "pkg-up": "^3.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/json5": "0.0.30",
+    "@types/read-pkg-up": "^6.0.0",
+    "cz-conventional-changelog": "3.3.0",
+    "file-box": "^0.16.4",
+    "husky": "^4.3.8",
+    "is-my-json-valid": "^2.20.5",
+    "json5": "^2.1.3",
+    "lint-staged": "^10.5.3",
+    "pkg-jq": "^0.2.4",
+    "prettier": "^2.2.1",
+    "read-pkg-up": "^7.0.1",
+    "standard-version": "^9.1.0",
+    "tstest": "^0.4.10"
+  },
+  "files": ["tsconfig.json", "bin/install.js"],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "lint-staged": {
+    "{*.json,.{babelrc,eslintrc,prettierrc}}": [
+      "prettier --ignore-path .eslintignore --parser json --write"
+    ],
+    "*.{css,scss,less}": [
+      "prettier --ignore-path .eslintignore --single-quote --write"
+    ],
+    "*.{html,md,yml}": [
+      "prettier --ignore-path .eslintignore --single-quote --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
