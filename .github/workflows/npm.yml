@@ -19,17 +19,6 @@ jobs:
       - name: Test
         run: npm test
 
-  pack:
-    name: Pack
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - run: npm run test:pack
-
   publish:
     if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/heads/v'))
     name: Publish

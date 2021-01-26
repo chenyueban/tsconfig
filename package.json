@@ -6,10 +6,8 @@
   "scripts": {
     "dist": "echo dist",
     "lint": "echo lint",
-    "pack": "npm pack",
     "postinstall": "node bin/install.js",
     "test": "npm run lint && npm run test:unit",
-    "test:pack": "bash -x scripts/npm-pack-testing.sh",
     "test:unit": "jest",
     "update:deps": "yarn upgrade-interactive --latest",
     "release": "standard-version"
