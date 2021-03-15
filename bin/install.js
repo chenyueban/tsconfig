@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable no-console */
 
 const fs = require('fs')
 const path = require('path')
@@ -12,21 +13,15 @@ const TSCONFIG_JSON_CONTENT = `{
   },
   "exclude": [
     "node_modules/",
-    "dist/",
-    "tests/fixtures/",
+    "dist/"
   ],
   "include": [
-    "app/**/*.ts",
-    "bin/*.ts",
-    "examples/**/*.ts",
-    "scripts/**/*.ts",
-    "src/**/*.ts",
-    "tests/**/*.spec.ts",
+    "src/**/*.ts"
   ],
 }
 `
 
-async function main () {
+async function main() {
   const cwd = path.join(__dirname, '..', '..')
   const pkg = await pkgUp({ cwd })
   if (!pkg) {
@@ -44,8 +39,8 @@ async function main () {
 }
 
 main()
-.then(process.exit)
-.catch(e => {
-  console.error(e)
-  process.exit(1)
-})
+  .then(process.exit)
+  .catch((e) => {
+    console.error(e)
+    process.exit(1)
+  })

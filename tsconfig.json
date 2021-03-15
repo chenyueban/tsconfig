@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2019",
+    "target": "ESNext",
+    "lib": ["ESNext"],
     "module": "CommonJS",
 
     "traceResolution": false,
@@ -9,25 +10,21 @@
 
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
 
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
 
-    "lib": ["ES2019"],
-
     "strict": true,
-    "jsx": "react",
-    "allowJs": true,
+    "allowJs": false,
     "noEmitOnError": true,
     "noUnusedLocals": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "strictNullChecks": true,
     "noImplicitAny": true,
-    "noUnusedParameters": true,
-    "noImplicitThis": true
+    "noUnusedParameters": true
   }
 }
