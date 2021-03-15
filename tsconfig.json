@@ -7,6 +7,7 @@
     "traceResolution": false,
     "noLib": false,
     "resolveJsonModule": true,
+    "moduleResolution": "node",
 
     "declaration": true,
     "declarationMap": true,
