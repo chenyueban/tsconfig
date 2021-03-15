@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/chenyueban/tsconfig/compare/v0.1.4...v0.1.5) (2021-03-15)
+
+### Features
+
+- **tsconfig.json:** add moduleResolution: node ([0a56f4a](https://github.com/chenyueban/tsconfig/commit/0a56f4a8c73486392d2b5b958b72a75ebd1cfb17))
+
 ### [0.1.4](https://github.com/chenyueban/tsconfig/compare/v0.1.3...v0.1.4) (2021-03-15)
 
 ### Features
