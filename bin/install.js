@@ -9,15 +9,16 @@ const pkgUp = require('pkg-up')
 const TSCONFIG_JSON_CONTENT = `{
   "extends": "@chenyueban/tsconfig",
   "compilerOptions": {
-    "outDir": "dist",
+    "outDir": "dist"
   },
-  "exclude": [
-    "node_modules/",
-    "dist/"
-  ],
   "include": [
-    "src/**/*.ts"
+    "src/**/*",
+    ".eslintrc.js",
+    ".prettierrc.js",
+    "commitlint.config.js",
+    "lint-staged.config.js"
   ],
+  "exclude": ["node_modules/", "dist/"]
 }
 `
 
