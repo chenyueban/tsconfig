@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/chenyueban/tsconfig/compare/v0.1.7...v0.1.8) (2021-04-28)
+
+### Features
+
+- **bin:** 更新 tsconfig 模板的内容 ([941c49c](https://github.com/chenyueban/tsconfig/commit/941c49c347267de330817ad306e7b1681a1d7d1c))
+
 ### [0.1.7](https://github.com/chenyueban/tsconfig/compare/v0.1.6...v0.1.7) (2021-04-25)
 
 ### [0.1.6](https://github.com/chenyueban/tsconfig/compare/v0.1.5...v0.1.6) (2021-04-19)
